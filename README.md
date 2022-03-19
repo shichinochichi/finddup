@@ -6,6 +6,7 @@ Function: Find duplicate files using file sizes and cryptgraphic hashes.
 Usage: run finddup.py --help
 
 Assumptions:
+
   don't act on mountpoints because:
   - it's unclear where else the mounted partition may be mounted, e.g. bindfs
     can get around the problem by intentionally including the moutnpoint in the argument list
