@@ -1,7 +1,10 @@
 # finddup
 Identify duplicate files.
+
 Function: Find duplicate files using file sizes and cryptgraphic hashes.
+
 Usage: run finddup.py --help
+
 Assumptions:
   don't act on mountpoints because:
   - it's unclear where else the mounted partition may be mounted, e.g. bindfs
